@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    background: linear-gradient(100deg, hsla(0, 50%, 2%, 0.65), hsla(0, 59%, 25%, 0.65)), url('./city.jpg');
+    background-size: cover;
+    
+    
+}
+
+
+header{
+    background: rgb(96, 27, 27);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    
+}
+
+label.logo{
+    margin-left: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+span{
+    color: black;
+}
+
+.navlink ul{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navlink ul li{
+    display: inline-block;
+    padding: 15px 15px;
+}
+
+.navlink ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px;
+
+}
+
+ul li ul li{
+    display: none;
+}
+
+.navlink ul li a:hover{
+    background:  black;
+    transition:  .5s;
+}
+
+.container{
+    margin-top: 70px;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 7px;
+    place-items: center;
+    place-content: center;
+    padding-top: 70px;
+
+}
+
+.container .you {
+    color: white;
+    
+}
+
+.container .just{
+    color: maroon;
+    font-family: Arial;
+    padding-top: 30px;
+}
+
+.container button{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: maroon;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.container button a{
+    cursor: pointer;
+}
+
+.container a:hover{
+
+    color: white;
+
+}
+
+/* about us */
+
+.about{
+
+    margin: 0 auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 140px;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+
+.about-hone{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.about-pa{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
